@@ -1,0 +1,12 @@
+services:
+  notebook:
+    build: .
+    container_name: jupyter-mlflow
+    ports:
+      - "9000:8888"   # Jupyter Lab
+      # - "5000:5000" # MLflow UI (윈도우 환경인 경우: 5000번 사용)
+      - "5001:5001"
+    volumes:
+      - ./mlruns:/mlruns
+      - ./:/workspace
+    restart: unless-stopped

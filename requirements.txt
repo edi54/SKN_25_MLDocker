@@ -11,7 +11,7 @@ PyMySQL==1.1.1
 scikit-learn==1.5.1
 seaborn==0.13.2
 SQLAlchemy==2.0.32
-tqdm==4.66.5
+tqdm==4.67.2
 langchain==0.3.27
 langchain-community==0.3.31
 langchain-core==0.3.79

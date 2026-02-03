@@ -17,7 +17,7 @@
   - 로컬 접근 포트: `5000`
   - macos: `5001`
 - **Python**
-  - Base image: `python:3.11-slim`
+  - Base image: `python:3.12-slim`
 - **실험 로그**
   - `./mlruns` 디렉토리에 저장
 
